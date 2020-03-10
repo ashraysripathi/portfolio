@@ -3,7 +3,7 @@ import DarkTheme from "../components/Darktheme";
 import "./style.css";
 import GithubShowcase from "react-github-showcase";
 
-const API_KEY = "ec95da06a99938b31373aa3879f257783b713915";
+const API_KEY = process.env.REACT_APP_API_KEY;
 class GCase extends Component {
   state = {};
 
