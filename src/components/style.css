@@ -88,8 +88,8 @@ body {
 }
 .links {
   position: relative;
-  right: 8px;
-  top: 140px;
+  right: 400px;
+  top: 154px;
 
   -moz-box-shadow: 0px 6px 5px #f035e9;
   -webkit-box-shadow: 0px 6px 5px #f035e9;
@@ -104,7 +104,8 @@ body {
   font-family: "Papyrus", fantasy;
   text-shadow: 0.25vw 0.25vw 0.25vw #f035e9;
   font-size: 3vw;
-  top: -50px;
+  top: -300px;
+  right: 400px;
 }
 
 .topnav {
@@ -123,4 +124,18 @@ a {
   color: white;
   text-decoration: none;
   word-spacing: 30px;
+}
+.subtext {
+  font-size: 14pt;
+  position: absolute;
+  right: 250px;
+}
+.inforight {
+  color: #ffff;
+  position: relative;
+  font-family: "Papyrus", fantasy;
+  text-shadow: 0.25vw 0.25vw 0.25vw #f035e9;
+  font-size: 3vw;
+  top: -60px;
+  right: -300px;
 }
