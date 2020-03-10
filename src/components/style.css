@@ -34,6 +34,22 @@
 
   background-repeat: no-repeat;
 }
+.gloop {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://media.giphy.com/media/l0K4eqRK0DQYRyqdO/giphy.gif");
+  background-attachment: fixed;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+}
 .aboutloop {
   display: flex;
   text-align: center;
@@ -83,6 +99,7 @@ body {
   border-radius: 190px;
 }
 .infotext {
+  color: #ffff;
   position: relative;
   font-family: "Papyrus", fantasy;
   text-shadow: 0.25vw 0.25vw 0.25vw #f035e9;
